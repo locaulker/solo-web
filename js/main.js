@@ -27,7 +27,7 @@ $(function () { // jQuery's document.ready method
 
 
 /* ==============================================
-          Team Section: Progress bars/Waoypoints
+          Team Section: Progress Bars/Waypoints
 ============================================== */
 $(function () {
   $("#progress-elements").waypoint(function () {
@@ -39,5 +39,15 @@ $(function () {
     this.destroy();
   }, {
     offset: 'bottom-in-view'
+  });
+});
+
+
+/* ==============================================
+          Services Section: Responsive Tabs
+============================================== */
+$(function() {
+  $("#services-tabs").responsiveTabs({
+    animation: 'slide'
   });
 });
