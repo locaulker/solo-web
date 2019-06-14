@@ -51,3 +51,66 @@ $(function() {
     animation: 'slide'
   });
 });
+
+
+/* =======================================
+        Portfolio Section: Isotopes
+======================================= */
+$(window).on('load', function () {
+  // Initialize Isotope
+//  $("#isotope-container").isotope({
+//    
+//  });
+  
+  // filter items on button click
+  $("#isotope-filters").on('click', 'button', function() {
+    
+    // get data-filter value
+    var filterValue = $(this).attr('data-filter');
+    
+    // filter portfolio item
+    $("#isotope-container").isotope({
+      filter: filterValue
+    });
+    
+    $("#isotope-filters").find('.active').removeClass('active');
+    $(this).addClass('active');
+    
+  });
+  
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
