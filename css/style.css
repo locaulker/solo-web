@@ -821,8 +821,105 @@ ul.social-list li:nth-child(3) a:hover {
   margin: 0;
 }
 .testimonial .author-name-title p.title {
-  color: #000
+  color: #000;
 }
+
+
+/* ==================================
+          Section: Pricing Plans
+================================== */
+.pricing-table {
+  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, .1);
+  border-radius: 6px;
+  padding: 32px 21px;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.pricing-table:hover {
+  background: #f4c613;
+}
+.pricing-table h4 {
+  color: #f4c613;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.pricing-table .price {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 24px 0;
+}
+.pricing-table .price h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0 0 0 24px;
+  position: relative;
+}
+.pricing-table .price h2 span {
+  font-family: "Raleway", sans-serif;
+}
+.pricing-table .price h2 span.dollar {
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  top: 8px;
+  left: -15px;
+}
+.pricing-table .price h2 span.month {
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+}
+.pricing-table .price p {
+  line-height: normal;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
