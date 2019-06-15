@@ -95,8 +95,21 @@ $(function() {
 });
 
 
-
-
+/* ==============================================
+        Testimonial Section: Owl Carousel
+============================================== */
+$(function () { // jQuery's document.ready method
+  $("#testimonial-slider").owlCarousel({
+    items: 1,
+    autoplay: false,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: false,
+    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+  });
+});
 
 
 
