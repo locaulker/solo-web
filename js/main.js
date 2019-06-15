@@ -81,19 +81,18 @@ $(window).on('load', function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ==============================================
+        Portfolio Section: Magnific PopUp
+============================================== */
+$(function() {
+  $("#portfolio-wrapper").magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
+});
 
 
 
