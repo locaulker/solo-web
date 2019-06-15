@@ -180,6 +180,19 @@ section {
   border: 1px solid #212226;
 }
 
+.btn-white {
+  color: #212226;
+  border: 1px solid #fff;
+  border-radius: 28px;
+  background-color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  color: #fff;
+  background-color: #212226;
+  border: 1px solid #212226;
+}
 
 /* ==================================
           Section: Home/ Arrow Down
@@ -894,7 +907,8 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table ul.package li i {
   width: 24px;
 }
-.pricing-table .btn-yellow {
+.pricing-table .btn-yellow,
+.pricing-table.black .btn-white {
   width: 96%;
 }
 .pricing-table:hover h4,
@@ -908,15 +922,24 @@ ul.social-list li:nth-child(3) a:hover {
   color: #212226;
   border: 1px solid #fff;
 }
-.pricing-table .btn-yellow:hover {
+.pricing-table .btn-yellow:hover,
+.pricing-table .btn-yellow:focus {
   background: #212226;
   color: #fff;
   border: 1px solid #212226;
 }
 
-
-
-
+/*-- pricing table: w/black bg --*/
+.pricing-table.black {
+  background: #212226;
+  color: #fff;
+}
+.pricing-table.black .type h4 {
+  color: #fff;
+}
+.pricing-table.black:hover {
+  background: #f4c613;
+}
 
 
 
