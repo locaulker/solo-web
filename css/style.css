@@ -903,8 +903,16 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table:hover ul.package {
   color: #fff;
 }
-
-
+.pricing-table:hover .btn-yellow {
+  background: #fff;
+  color: #212226;
+  border: 1px solid #fff;
+}
+.pricing-table .btn-yellow:hover {
+  background: #212226;
+  color: #fff;
+  border: 1px solid #212226;
+}
 
 
 
