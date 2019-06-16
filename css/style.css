@@ -941,14 +941,50 @@ ul.social-list li:nth-child(3) a:hover {
   background: #f4c613;
 }
 
+/* =============================
+          Section: Stats
+============================= */
+#stats {
+  background: url('../images/stats/stats-bg.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+#stats .content-box-md {
+  background: rgba(0, 0, 0, .8);
+}
+#stats .vertical-heading {
+  margin-bottom: 50px;
+}
+#stats .vertical-heading h2 {
+  color: #fff;
+}
+#stats .stats-item {
+  background: rgba(61, 68, 68, .6);
+  border-radius: 4px;
+  color: #fff;
+  min-height: 170px;
+  padding: 25px 50px;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+#stats .stats-item i {
+  font-size: 42px;
+  color: #f4c613;
+  margin: 0 0 6px 0;
+}
+#stats .stats-item h3 {
+  font-size: 42px;
+  color: #fff;
+  margin: 5px 0 5px 0;
+}
+#stats .stats-item p {
+  color: #fff;
+  margin: 0;
+}
 
-
-
-
-
-
-
-
+/*-- Hover Effects --*/
+#stats .stats-item:hover {
+  background: #f4c613;
+}
 
 
 
