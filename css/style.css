@@ -970,6 +970,8 @@ ul.social-list li:nth-child(3) a:hover {
   font-size: 42px;
   color: #f4c613;
   margin: 0 0 6px 0;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
 }
 #stats .stats-item h3 {
   font-size: 42px;
@@ -985,7 +987,11 @@ ul.social-list li:nth-child(3) a:hover {
 #stats .stats-item:hover {
   background: #f4c613;
 }
-
+#stats .stats-item:hover i {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  color: #212226;
+}
 
 
 
