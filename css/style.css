@@ -227,6 +227,10 @@ section {
   padding: 100px 0;
 }
 
+.content-box-sm {
+  padding: 90px 0;
+}
+
 
 /* ==================================
     Vertical/Horizontal Headings
@@ -994,10 +998,24 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 
-
-
-
-
+/* =============================
+          Section: Clients
+============================= */
+#clients .horizontal-heading {
+  margin-bottom: 30px;
+}
+#clients #clients-list {
+  padding: 45px 0 0 0
+}
+#clients #clients-list .client {
+  padding: 0 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+#clients #clients-list .client img {
+  display: inline-block !important;
+}
 
 
 
