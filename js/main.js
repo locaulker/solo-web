@@ -112,8 +112,15 @@ $(function () { // jQuery's document.ready method
 });
 
 
-
-
+/* ==============================================
+        Stats Section: jQuery CounterUp
+============================================== */
+$(function() {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 2000
+  });
+});
 
 
 
