@@ -1150,13 +1150,19 @@ ul.office-details li i {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* =================================
+          Section: Footer Area
+================================= */
+footer {
+  background: #212226;
+  padding: 30px;
+}
+footer p {
+  color: #fff;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+footer p span {
+  color: #f4c613;
+}
