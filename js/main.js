@@ -140,11 +140,38 @@ $(function () { // jQuery's document.ready method
 });
 
 
-
-
-
-
-
-
-
-
+/* =======================================
+          Google Map Section
+======================================= */
+$(window).on('load', function () {
+  
+  // Map Variables
+  var addressString = '230 Broadway, New York, NY 10007, USA';
+  var mylatlng = {
+      lat: 40.715240,
+      lng: -74.005417
+  }
+  
+  // 1. Render Google Map
+  var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 11,
+      center: mylatlng
+  });
+  
+  // 2. Add Location Marker
+  var marker = new google.maps.Marker({
+      position: mylatlng,
+      map: map,
+      title: "Click to See Address"
+  });
+  
+  // 3. Add Info Window
+  var infowindow = new google.maps.InfoWindow({
+      content: addressString
+  });
+  
+  // 4. Open Info Window on Click of Marker
+  marker.addListener('click', function() {
+      infowindow.open(map, marker);
+  });
+});
