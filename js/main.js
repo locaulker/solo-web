@@ -175,3 +175,56 @@ $(window).on('load', function () {
       infowindow.open(map, marker);
   });
 });
+
+
+/* =======================================
+          Navigation: Show/Hide
+======================================= */
+/* Toggle Normal & White Bg Navigation bar on jQuery Scroll */
+$(function() {
+  
+  // show/hide nav on "Page load"
+  showHideNav();
+  
+  // show/hide nav on "Window's Scroll"
+  $(window).scroll(function() {
+    showHideNav();
+  });
+  
+  
+  function showHideNav() {
+    if( $(window).scrollTop() > 50 ) {
+      //1. Display White Navigation Bar
+      $("nav").addClass("white-nav-top");
+      
+      //2. Display Dark Logo
+      $(".navbar-brand img").attr("src", "images/logo/logo-dark.png")
+      
+    } else {
+      //1. Hide White Navigation Bar
+      $("nav").removeClass("white-nav-top");
+      
+      //2. Display Dark Logo
+      $(".navbar-brand img").attr("src", "images/logo/logo.png")
+    }
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
